@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PNLib</string>
+    <string name="open">Open Navication</string>
+    <string name="cloes">Cloes Navication</string>
+    <string name="loai_sach">Quan ly loai sach</string>
+    <string name="sach">Quan ly sach</string>
+    <string name="thong_ke">Thong ke</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

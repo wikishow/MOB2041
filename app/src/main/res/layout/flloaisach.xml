@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÊM LOẠI SÁCH"
+        android:textSize="25dp"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/edtthemloaisach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhap ten sach"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:id="@+id/btnThemLoaisach"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sửa"
+        android:id="@+id/btnSuaLoaisach"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DANH SÁCH LOẠI SÁCH"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="#2196F3"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rcc_loaisach"/>
+
+
+</LinearLayout>

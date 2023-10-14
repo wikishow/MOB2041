@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".taotaikhoan"
+    android:orientation="vertical"
+    android:background="@drawable/ttk">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Tạo tài khoản"
+           android:textColor="#F44336"
+           android:textSize="30dp"
+           android:textStyle="bold"
+           android:gravity="center"/>
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap username"
+            android:background="@drawable/edittext"
+            />
+        <TextView
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edtpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap password"
+            android:background="@drawable/edittext"
+            />
+        <TextView
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhap lai password"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtnhaplai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap lai password"
+            android:background="@drawable/edittext"
+            />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tạo tài khoản"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/btnregister"
+            android:background="#C14040"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thoát"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/btngoback"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
